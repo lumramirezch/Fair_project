@@ -54,9 +54,9 @@ do
     # Test md5 
     if [ "$md5_local" == "$md5" ]
     then
-        echo "Done"
+        echo "OK"
     else
-        echo "Nope"
+        echo "Error"
         exit 1
     fi
 done
